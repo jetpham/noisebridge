@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'https://noisebridge.net' : 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NODE_ENV === 'production' ? 'https://noisebridge.jetpham.com' : 'http://localhost:3000'),
   title: "Noisebridge",
-  description: "Noisebridge",
+  description: "ANSI art of Noisebridge",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   openGraph: {
     images: [
